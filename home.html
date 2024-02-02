@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavors Eater - Home</title>
+    <link rel="stylesheet" href="theme.css">
+    <style>
+        /* Additional CSS for positioning the chatbot iframe */
+        .chat-bot {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            border: none; /* Remove iframe border */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Drop shadow */
+            transition: transform 0.3s ease; /* Smooth animation */
+        }
+
+        /* Add hover effect to chatbot iframe */
+        .chat-bot:hover {
+            transform: scale(1.05); /* Zoom effect on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Flavors Eater</h1>
+        <h2>Indulge in Delicious Fast Food Delights in Hyderabad, Telangana</h2>
+    </header>
+
+    <section class="menu">
+        <h3>Our Menu</h3>
+        <div class="menu-items">
+            <div class="category">
+                <h4>Vegetarian Delights</h4>
+                <ul>
+                    <li>Pav Bhaji</li>
+                    <li>Chole Bhature</li>
+                    <li>Masala Dosa</li>
+                    <li>Vada Pav</li>
+                    <li>Rava Dosa</li>
+                    <li>Samosa</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h4>International Favorites</h4>
+                <ul>
+                    <li>Pizza</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h4>Refreshing Beverages</h4>
+                <ul>
+                    <li>Mango Lassi</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h4>Flavorful Rice Dishes</h4>
+                <ul>
+                    <li>Biryani</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <h3>Location</h3>
+        <p>Find us at: Hyderabad, Telangana</p>
+    </section>
+
+    <footer>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>Phone: [7036183362]</p>
+            <p>Email: [saidixit.vila@gmail.com]</p>
+            <p>Follow us on social media</p>
+        </div>
+        <div class="order-online">
+            <h3>Order Online</h3>
+            <a href="[Insert Online Ordering Link]">Order Now</a>
+        </div>
+    </footer>
+
+    <!-- Dialogflow Chatbot iframe -->
+    <iframe class="chat-bot" width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/feebfac7-ca2a-4ff9-846f-929901488088"></iframe>
+</body>
+</html>
